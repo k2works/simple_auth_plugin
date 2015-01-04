@@ -1,0 +1,38 @@
+
+lib/simple_auth_plugin/generator.rb,183
+module SimpleAuthPluginSimpleAuthPlugin1,0
+   class SimpleAuthGenerator < Rails::Generators::BaseSimpleAuthGenerator2,0
+	  def create_initializer_filecreate_initializer_file4,0
+
+lib/simple_auth_plugin/railtie.rb,91
+module SimpleAuthPluginSimpleAuthPlugin4,0
+   class Railtie < Rails::RailtieRailtie5,0
+
+lib/simple_auth_plugin/version.rb,77
+module SimpleAuthPluginSimpleAuthPlugin1,0
+  VERSION = "0.0.1"VERSION2,0
+
+lib/simple_auth_plugin.rb,444
+module SimpleAuthPluginSimpleAuthPlugin1,0
+   module AuthableAuthable2,0
+	  class SignInRequired < StandardError; endSignInRequired4,0
+	  def auth_session_keyauth_session_key10,0
+	  def current_usercurrent_user14,0
+	  def require_signed_in!require_signed_in!19,0
+	  def sign_in!(user)sign_in!23,0
+	  def sign_out!sign_out!28,0
+	  module ClassMethodsClassMethods33,0
+		 def sign_in_required!(options={})sign_in_required!34,0
+
+test/dummy/app/controllers/application_controller.rb,79
+class ApplicationController < ActionController::BaseApplicationController1,0
+
+test/dummy/app/helpers/application_helper.rb,47
+module ApplicationHelperApplicationHelper1,0
+
+test/dummy/config/application.rb,80
+module DummyDummy8,0
+  class Application < Rails::ApplicationApplication9,0
+
+test/simple_auth_plugin_test.rb,78
+class SimpleAuthPluginTest < ActiveSupport::TestCaseSimpleAuthPluginTest3,0

@@ -1,0 +1,4 @@
+lib/simple_auth_plugin.rb e8989ac00e63b525dfabdddbccbb2b4a608c53c2
+lib/simple_auth_plugin/version.rb 521a1f49e5abd8fe985cf733a5e8f1a39476a776
+lib/simple_auth_plugin/generator.rb 07b089805be94a4b20631db581191fdffda5b1ce
+lib/simple_auth_plugin/railtie.rb 1e964680838699d2e3908a52af7bbd919a28d04c
